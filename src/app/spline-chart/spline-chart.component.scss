@@ -1,0 +1,69 @@
+@import "../../_variables.scss";
+
+$animation-speed: 300ms;
+
+:host ::ng-deep text {
+    fill: currentColor;
+}
+
+.selected {
+  background-color: $accent;
+}
+
+.tooltip {
+    // background-color: white;
+    position: absolute;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    // color: currentColor;
+}
+
+.spline-chart {
+    // background-color: black;
+}
+
+:host ::ng-deep {
+    .line, .point {
+        cursor: pointer;
+    }
+    .line {
+        fill: none;
+        stroke-width: 4px;
+        stroke-opacity: 0.5;
+        -webkit-transition: stroke-opacity $animation-speed ease-in-out;
+        transition: stroke-opacity $animation-speed ease-in-out;
+    
+        &:hover{
+            stroke-opacity: 1.0;
+            -webkit-transition: stroke-opacity $animation-speed ease-in-out;
+            transition: stroke-opacity $animation-speed ease-in-out;
+        }    
+    }
+    .point {
+        fill-opacity: 0.5;
+        -webkit-transition: fill-opacity $animation-speed ease-in-out;
+        transition: fill-opacity $animation-speed ease-in-out;
+    
+        &:hover{
+            fill-opacity: 1.0;
+            -webkit-transition: fill-opacity $animation-speed ease-in-out;
+            transition: fill-opacity $animation-speed ease-in-out;
+        }    
+    }
+
+    .bottomSpeedLine {
+        stroke: $primary-800;
+    }
+    .bottomSpeedLine-point {
+        fill: $primary-800;
+    }
+
+    .topSpeedLine {
+        stroke: $primary-300;
+    }
+    .topSpeedLine-point {
+        fill: $primary-300;
+    }
+}

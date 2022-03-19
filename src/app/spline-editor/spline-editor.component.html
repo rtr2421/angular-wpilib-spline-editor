@@ -1,0 +1,60 @@
+
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport position="end"
+        [attr.role]="'navigation'"
+        [mode]="'side'"
+        [opened]="true">
+      <mat-nav-list>
+        <div>
+            <mat-form-field appearance="fill">
+                <mat-label>Interpolation Type</mat-label>
+                <mat-select name="contactMethod" id="contactMethod" class="form-control" [(ngModel)]="chosenIMethod">
+                    <mat-option *ngFor="let method of iMethodOptions" [value]="method">{{ method }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Distances</mat-label>
+                <input matInput type="text" [(ngModel)]="distances" (focusout)="reCreateData()" (keyup.enter)="reCreateData()" />
+                <button *ngIf="distances" matSuffix mat-icon-button aria-label="Clear" [cdkCopyToClipboard]="distances">
+                    <mat-icon>content_copy</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Top Speeds</mat-label>
+                <input matInput type="text" [(ngModel)]="topSpeeds" (focusout)="reCreateData()" (keyup.enter)="reCreateData()" />
+                <button *ngIf="topSpeeds" matSuffix mat-icon-button aria-label="Clear" [cdkCopyToClipboard]="topSpeeds">
+                    <mat-icon>content_copy</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Bottom Speeds</mat-label>
+                <input matInput type="text" [(ngModel)]="bottomSpeeds" (focusout)="reCreateData()" (keyup.enter)="reCreateData()" />
+                <button *ngIf="bottomSpeeds" matSuffix mat-icon-button aria-label="Clear" [cdkCopyToClipboard]="bottomSpeeds">
+                    <mat-icon>content_copy</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+
+        <button mat-button (click)="reset()">Reset</button>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+  
+        <app-spline-chart
+            [data]="shooterService.collection"
+            yAxisLabel="Speed"
+            xAxisLabel="Distance (m)"
+            [chosenIMethod]="chosenIMethod"
+            *ngIf="(shooterService.collection)"
+            (change)="onChange()"
+            (onDrag)="onDrag($event)"></app-spline-chart>
+
+    </mat-sidenav-content>
+</mat-sidenav-container>
