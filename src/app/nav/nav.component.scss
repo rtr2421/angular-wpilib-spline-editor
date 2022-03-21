@@ -1,3 +1,5 @@
+@import "../../_variables.scss";
+
 .sidenav-container {
   height: 100%;
 }
@@ -14,4 +16,10 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+
+.mat-list-item.active {
+  color: $primary;
+  font-weight: bold;
 }

@@ -1,0 +1,12 @@
+<section>
+  <div class="example-container">
+    <mat-card>
+      <mat-form-field hintLabel="Ex. roboRIO-2421-FRC.local" appearance="fill">
+        <mat-label>Team Domain</mat-label>
+        <input matInput [(ngModel)]="settings.teamDomain" (change)="save()">
+      </mat-form-field>
+
+      <button mat-button (click)="connect()">Connect</button>
+    </mat-card>
+  </div>
+</section>

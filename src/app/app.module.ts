@@ -22,6 +22,10 @@ import {ClipboardModule} from '@angular/cdk/clipboard';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { SettingsComponent } from './settings/settings.component';
+import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +33,8 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     LineChartComponent,
     SplineChartComponent,
     SplineEditorComponent,
-    NavComponent
+    NavComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +52,8 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     MatSelectModule,
     ClipboardModule,
     MatSlideToggleModule,
+    MatCardModule,
+    FlexLayoutModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
