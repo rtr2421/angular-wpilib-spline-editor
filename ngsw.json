@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1647902716184,
-  "index": "/index.html",
+  "timestamp": 1647902930800,
+  "index": "/angular-wpilib-spline-editor/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.564bfce026c624c844f2.js",
-        "/manifest.webmanifest",
-        "/polyfills.093ad8bd1235e9246909.js",
-        "/runtime.1b71657e85ac1b2550ef.js",
-        "/styles.5a17e7cd4209b7518c06.css"
+        "/angular-wpilib-spline-editor/favicon.ico",
+        "/angular-wpilib-spline-editor/index.html",
+        "/angular-wpilib-spline-editor/main.564bfce026c624c844f2.js",
+        "/angular-wpilib-spline-editor/manifest.webmanifest",
+        "/angular-wpilib-spline-editor/polyfills.093ad8bd1235e9246909.js",
+        "/angular-wpilib-spline-editor/runtime.1b71657e85ac1b2550ef.js",
+        "/angular-wpilib-spline-editor/styles.5a17e7cd4209b7518c06.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/angular-wpilib-spline-editor/assets/icons/icon-128x128.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-144x144.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-152x152.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-192x192.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-384x384.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-512x512.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-72x72.png",
+        "/angular-wpilib-spline-editor/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "0af12b4850b8b985a9cb0d2520e3601e72af7907",
-    "/main.564bfce026c624c844f2.js": "6bc1dabdda1a9339ffc0cbed9c8e0ccc50eab484",
-    "/manifest.webmanifest": "f1ea4accd305275509a0623caf434d9296da4d75",
-    "/polyfills.093ad8bd1235e9246909.js": "c914db378bd1d18913706a9f3633dd741164a3f2",
-    "/runtime.1b71657e85ac1b2550ef.js": "fd94eef3930384d194a03d38b2bc38c95a78ec1f",
-    "/styles.5a17e7cd4209b7518c06.css": "aad57b5ca0aaf90729ae71401285930493e48e6d"
+    "/angular-wpilib-spline-editor/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/angular-wpilib-spline-editor/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/angular-wpilib-spline-editor/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/angular-wpilib-spline-editor/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/angular-wpilib-spline-editor/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/angular-wpilib-spline-editor/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/angular-wpilib-spline-editor/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/angular-wpilib-spline-editor/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/angular-wpilib-spline-editor/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/angular-wpilib-spline-editor/index.html": "543db241c8887577379fea843aa08c1ecba3ef5f",
+    "/angular-wpilib-spline-editor/main.564bfce026c624c844f2.js": "6bc1dabdda1a9339ffc0cbed9c8e0ccc50eab484",
+    "/angular-wpilib-spline-editor/manifest.webmanifest": "f1ea4accd305275509a0623caf434d9296da4d75",
+    "/angular-wpilib-spline-editor/polyfills.093ad8bd1235e9246909.js": "c914db378bd1d18913706a9f3633dd741164a3f2",
+    "/angular-wpilib-spline-editor/runtime.1b71657e85ac1b2550ef.js": "fd94eef3930384d194a03d38b2bc38c95a78ec1f",
+    "/angular-wpilib-spline-editor/styles.5a17e7cd4209b7518c06.css": "aad57b5ca0aaf90729ae71401285930493e48e6d"
   },
   "navigationUrls": [
     {
